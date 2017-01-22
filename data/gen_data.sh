@@ -1,0 +1,1 @@
+echo "Processing ss15pusa.csv..."; awk -F , -f sieve/select.awk ss15pusa.csv > data.csv; echo "Processing ss15pusb.csv..."; awk -F , -f sieve/select.awk ss15pusb.csv >> data.csv

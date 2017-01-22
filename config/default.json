@@ -1,0 +1,12 @@
+{
+	"insurance": 2000,
+	"parent-gap": 12,
+	"parent-subsidy": 4000,
+	"init-deposit": 24000,
+	"retire-age": 70,
+	"tax-rate": 0.2,
+	"migrants": [
+		[0],
+		[10000]
+	]
+}

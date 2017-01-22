@@ -1,0 +1,86 @@
+\documentclass{mcmthesis}
+\mcmsetup{CTeX = false,           
+        tcn = 0000, problem = A,
+        sheet = true, titleinsheet = true, keywordsinsheet = true,
+        titlepage = true, abstract = true}
+\usepackage{palatino}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage{comment}
+\usepackage{lipsum}
+\title{The \LaTeX{} Template for MCM Version \MCMversion}
+\author{\small Zihao Ye, Zheyi Cao, Cheng Wan}
+\date{\today}
+
+\begin{document}
+\begin{abstract}
+\lipsum[1]
+\begin{keywords}
+keyword1; keyword2
+\end{keywords}
+\end{abstract}
+\maketitle
+\section{Introduction}
+\input{sections/introduction}
+  
+\section{Calculating and Simplifying the Model}
+\subsection{Task 1}
+
+\input{sections/model-task1.tex}
+\subsection{Task 2}
+
+\input{sections/model-task2.tex}
+\subsection{Task 3}
+
+\input{sections/model-task3.tex}
+\subsection{Task 4}
+
+\input{sections/model-task4.tex}
+\subsection{Task 5}
+
+\input{sections/model-task5.tex}
+
+\subsection{Task 6}
+
+\input{sections/model-task6.tex}
+
+\subsection{Task 7}
+
+\input{sections/model-task7.tex}
+\section{The Model Results}
+\lipsum[6]
+
+\section{Validating the Model}
+\lipsum[9]
+
+\section{Conclusions}
+\lipsum[6]
+
+\section{A Summary}
+\lipsum[6]
+
+\section{Evaluate of the Mode}
+
+\section{Strengths and weaknesses}
+\lipsum[12]
+
+\bibliographystyle{acm}
+\bibliography{bibtex/bib/mcm}
+\begin{appendices}
+
+\section{First appendix}
+
+\lipsum[13]
+
+Here are simulation programmes we used in our model as follow.\\
+
+\textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}
+
+\section{Second appendix}
+
+some more text \textcolor[rgb]{0.98,0.00,0.00}{\textbf{Input C++ source:}}
+
+\end{appendices}
+
+\end{document}
+

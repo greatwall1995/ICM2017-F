@@ -1,0 +1,1 @@
+awk -F "[ ]" -f sieve/select_work.awk data.csv > work.csv
